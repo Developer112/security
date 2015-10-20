@@ -5,7 +5,7 @@ time.sleep(1)
 print("This program is meant to protect people from phishing.")
 time.sleep(1)
 x = socket.gethostbyname(raw_input(" eg: google.com \n Enter real site url: "))
-y = socket.gethostbyname(raw_input(" eg: google.com \n Enter suspicious site ur$
+y = socket.gethostbyname(raw_input(" eg: google.com \n Enter suspicious site url: "))
 print("Now it will compare the site IPs.")
 len1 = len(x)
 len2 = len(y)
